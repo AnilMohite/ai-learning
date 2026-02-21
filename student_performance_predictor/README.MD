@@ -35,6 +35,14 @@ pip install pandas scikit-learn joblib
 
 ## Usage
 
+### Model Training Approach
+
+This project uses a **Logistic Regression approach** for binary classification:
+- **Input Features**: Hours studied (1 numeric feature)
+- **Algorithm**: Logistic Regression
+- **Data Split**: 80% training, 20% testing
+- **Output**: Binary classification (Pass=1 or Fail=0)
+
 ### 1. Train the Model
 
 ```bash
@@ -45,7 +53,7 @@ This will:
 - Load the dataset from `data.csv`
 - Split data into 80% training and 20% testing sets
 - Train the Logistic Regression model
-- Display model accuracy
+- Display model accuracy on test data
 - Save the trained model as `student_model.pkl`
 
 ### 2. Make Predictions
