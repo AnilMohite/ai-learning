@@ -4,6 +4,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_val_score, train_test_split
 import joblib
 
+print("=" * 50)
+print("Training Using TF-IDF Sentiment Analysis Model...")
+print("=" * 50)
+
 # load data
 data = pd.read_csv("sentiment_analysis/calls.csv")
 
@@ -33,8 +37,8 @@ print("Cross Validation Scores:", scores)
 print("Average Accuracy:", scores.mean())
 
 # save both
-joblib.dump(model, "sentiment_analysis/sentiment_model.pkl")
-joblib.dump(vectorizer, "sentiment_analysis/vectorizer.pkl")
+joblib.dump(model, "sentiment_analysis/tfidf_sentiment_model.pkl")
+joblib.dump(vectorizer, "sentiment_analysis/tfidf_vectorizer.pkl")
 
 
 # Evaluate model with classification report
