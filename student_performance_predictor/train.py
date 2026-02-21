@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 # 1. Load dataset
-data = pd.read_csv("data.csv")
+data = pd.read_csv("student_performance_predictor/data.csv")
 
 X = data[["hours"]]   # input - 2D for sklearn, even if it's just one feature
 y = data["pass"]      # output - 1D for classification
@@ -25,6 +25,6 @@ accuracy = model.score(X_test, y_test)
 print("Model Accuracy:", accuracy)
 
 # 6. Save model
-joblib.dump(model, "student_model.pkl")
+joblib.dump(model, "student_performance_predictor/student_model.pkl")
 
 print("Model saved as student_model.pkl")
