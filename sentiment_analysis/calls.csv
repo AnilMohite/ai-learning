@@ -1,0 +1,33 @@
+text,label
+"thank you this was very helpful",happy
+"great support from the agent",happy
+"issue resolved quickly thanks",happy
+"perfect solution appreciate it",happy
+"you solved my problem",happy
+"very satisfied with service",happy
+"good assistance",happy
+"happy with the response",happy
+"excellent help from support",happy
+"working fine now thanks",happy
+
+"ok it works",neutral
+"fine",neutral
+"alright",neutral
+"its okay now",neutral
+"no problem",neutral
+"i will check",neutral
+"let me see",neutral
+"okay thanks",neutral
+"got it",neutral
+"cool",neutral
+
+"this is very bad service",angry
+"i am unhappy with support",angry
+"worst experience",angry
+"not resolved",angry
+"still not working",angry
+"very disappointed",angry
+"this is frustrating",angry
+"i want to complain",angry
+"terrible help",angry
+"you wasted my time",angry
